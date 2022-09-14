@@ -1,0 +1,167 @@
+@media screen and (min-width: 1250px) {
+    :root {
+        --size12: 12px;
+        --size16: 16px;
+        --size20: 20px;
+        --size25: 25px;
+        --size30: 30px;
+        --size40: 40px;
+        --size50: 50px;
+        --size60: 60px;
+        --size80: 80px;
+        --size250: 250px;
+        --size350: 350px;
+        --size550: 550px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+    :root {
+        --size12: 10px;
+        --size16: 13px;
+        --size20: 16px;
+        --size25: 20px;
+        --size30: 24px;
+        --size40: 32px;
+        --size50: 40px;
+        --size60: 48px;
+        --size80: 64px;
+        --size250: 200px;
+        --size350: 280px;
+        --size550: 440px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    :root {
+        --size12: 7px;
+        --size16: 10px;
+        --size20: 14px;
+        --size25: 15px;
+        --size30: 18px;
+        --size40: 24px;
+        --size50: 30px;
+        --size60: 36px;
+        --size80: 48px;
+        --size250: 150px;
+        --size350: 210px;
+        --size550: 330px;
+    }
+}
+@media screen and (max-width: 700px) {
+    :root {
+        --size12: 6px;
+        --size16: 8px;
+        --size20: 12px;
+        --size25: 13px;
+        --size30: 15px;
+        --size40: 20px;
+        --size50: 25px;
+        --size60: 30px;
+        --size80: 40px;
+        --size250: 125px;
+        --size350: 175px;
+        --size550: 275px;
+    }
+}
+
+body
+{
+    background: url("images/cover.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+    color: white; /* Le texte de la page sera blanc */
+    text-align: center;
+    min-width: 650px;
+}
+
+h1
+{
+    text-align:center;
+    font-size: var(--size80);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2
+{
+    text-align:center;
+    font-size: var(--size60);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+button {
+    background: no-repeat center/100% url("images/button_color_80.png");
+    border: none;
+    color: white;
+    padding: var(--size30) var(--size20);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 45%;
+    margin-left : var(--size25);
+    transition-duration: 0.4s;
+}
+
+button.BasicButton {
+    width: var(--size350);
+    font-size: var(--size40);
+}
+
+button.TotalButton {
+    width: var(--size550);
+    font-size: var(--size60);
+    border-radius: 0%;
+}
+
+button.CategoryButton{
+    width: var(--size250);
+    font-size: var(--size20);
+}
+
+button:hover {
+    background: no-repeat center/100% url("images/button_color_50.png");
+    box-shadow: 0 var(--size12) var(--size16) 0 rgba(0,0,0,0.24), 0 var(--size16) var(--size50) 0 rgba(0,0,0,0.19);
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+    border: 2px black solid;
+    font: var(--size20) sans-serif;
+    width:80%; 
+    margin-left:10%; 
+    margin-right:10%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+th{
+    text-align: center;
+}
+
+td {
+    border: 1px black solid;
+    padding: 10px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th, tr:last-child{
+    font: var(--size25) sans-serif;
+    background-color: rgba(69, 81, 184, 0.8);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.graph{
+    width: 70%;
+}

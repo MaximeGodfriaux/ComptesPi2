@@ -197,7 +197,7 @@
 13-02-2023,Travail Kai Hokkaido Impala Bengal Ouandji,Travail Q1,125
 13-02-2023,Travail Corsac,Travail Q1,95
 13-02-2023,Travail Ouandji,Travail Q1,65
-14-02-2023,Billet d'avions,Camp Transports,-3540.28
+14-02-2023,Billet d'avions,Camp Avion,-3540.28
 17-02-2023,Travail Ibex,Travail Q1,125
 28-02-2023,Payement Madoqua,Weekend Q2,25
 28-02-2023,Retour Bacs Colruyt,Lasagnes,27.28
@@ -215,8 +215,8 @@
 08-03-2023,Payement Florentin,Weekend Q2,25
 09-03-2023,Payement Azorès,Weekend Q2,25
 09-03-2023,Payement Mathias,Weekend Q2,25
-09-03-2023,Flixbus Paris Algéciras,Camp Transports,-3259.71
-09-03-2023,Flixbus Bruxelles Paris,Camp Transports,-494.71
+09-03-2023,Flixbus Paris Algéciras,Camp Flixbus,-3259.71
+09-03-2023,Flixbus Bruxelles Paris,Camp Flixbus,-494.71
 10-03-2023,Payement Ouandji,Weekend Q2,25
 10-03-2023,Payement Impala,Weekend Q2,25
 10-03-2023,Payement Ibex,Weekend Q2,25
@@ -232,8 +232,9 @@
 16-03-2023,Logement Algéciras,Camp Logement,-870
 16-03-2023,Travail Mazama,Travail Q2,150
 17-03-2023,Payement Impala,Lasagnes,25
-17-03-2023,Remboursement Wipsy,Camp Transports,25
+17-03-2023,Remboursement Wipsy,Camp Avion,25
 21-03-2023,Vente Dessert,Grand Feu,280
 22-03-2023,Travail Jabiru Ibex Sajou Mohoua Ouandji,Travail Q2,300
 22-03-2023,Argent Blanmont,Grand Feu,-103
 22-03-2023,Argent Cortil,Grand Feu,-103
+27-03-2023,Payement Bateau,Camp Bateau,-924
